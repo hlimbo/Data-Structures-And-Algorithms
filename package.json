@@ -11,7 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha tests/**/*.js"
+    "test": "mocha tests/**/*.js",
+    "test_loops2": "mocha tests/getting_started/test_with_loops2.js",
+    "test_loops3": "mocha tests/getting_started/test_with_loops3.js"
   },
   "repository": {
     "type": "git",
