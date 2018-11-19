@@ -1,0 +1,26 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "\"# Data-Structures-And-Algorithms\"",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlimbo/Data-Structures-And-Algorithms.git"
+  },
+  "author": "Harvey Limbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlimbo/Data-Structures-And-Algorithms/issues"
+  },
+  "homepage": "https://github.com/hlimbo/Data-Structures-And-Algorithms#readme"
+}
