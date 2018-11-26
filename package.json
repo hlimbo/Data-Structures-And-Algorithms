@@ -6,12 +6,14 @@
   "dependencies": {
     "bluebird": "^3.5.3",
     "chai": "^4.2.0",
+    "lodash": "^4.17.11",
     "mocha": "^5.2.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "mocha tests/**/*.js",
+    "test:bubble_sort": "mocha tests/sorting/bubble_sort_tests.js",
     "test_loops2": "mocha tests/getting_started/test_with_loops2.js",
     "test_loops3": "mocha tests/getting_started/test_with_loops3.js"
   },
